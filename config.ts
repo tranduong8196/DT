@@ -2,7 +2,7 @@ import { openai } from "@ai-sdk/openai";
 import { fireworks } from "@ai-sdk/fireworks";
 import { wrapLanguageModel, extractReasoningMiddleware } from "ai";
 
-export const MODEL = openai('gpt-4.1');
+export const MODEL = openai('gpt-5-nano');
 
 // If you want to use a Fireworks model, uncomment the following code and set the FIREWORKS_API_KEY in Vercel
 // NOTE: Use middleware when the reasoning tag is different than think. (Use ChatGPT to help you understand the middleware)
@@ -30,10 +30,15 @@ function getDateAndTime(): string {
 
 export const DATE_AND_TIME = getDateAndTime();
 
-export const AI_NAME = "MyAI3";
+export const AI_NAME = "BehavioralPro AI";
 export const OWNER_NAME = "Duong Tran";
 
-export const WELCOME_MESSAGE = `Hello! I'm ${AI_NAME}, an AI assistant created by ${OWNER_NAME}.`
+export const WELCOME_MESSAGE = `Hello! I'm ${AI_NAME}, an AI assistant created by ${OWNER_NAME}. I help you craft strong behavioral interview answers using the STAR method (Situation, Task, Action, Result). 
+Paste the interview question and your draft answer, and I’ll:
+- Rewrite it into a clean STAR story
+- Strengthen metrics/impact
+- Suggest follow-up questions recruiters ask
+- Tailor it to roles like consulting, tech, finance, etc.`
 
 export const CLEAR_CHAT_TEXT = "New";
 
