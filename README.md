@@ -1,3 +1,17 @@
+# BehavioralPro AI
+
+BehavioralPro AI is a RAG-powered behavioral interview coaching assistant built using Next.js, OpenAI, Pinecone vector database, and Vercel deployment.
+
+## Live Demo
+https://my-ai-3-lac.vercel.app
+
+## Features
+- Behavioral interview coaching
+- STAR framework guidance
+- Amazon Leadership Principles alignment
+- Mock interview simulation
+- Retrieval-Augmented Generation (RAG)
+
 # MyAI3
 
 A customizable AI chatbot assistant built with Next.js, featuring web search capabilities, vector database integration, and content moderation. This repository provides a complete foundation for deploying your own AI assistant with minimal technical knowledge required.
